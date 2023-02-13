@@ -1,4 +1,7 @@
-Understanding the DOM tree structure: The DOM is a tree-like structure that represents an HTML document and its elements, allowing you to access, modify, and manipulate the content and structure of a webpage.
+## Understanding the DOM tree structure
+
+The DOM is a tree-like structure that represents an HTML document and its elements, allowing you to access, modify, and manipulate the content and structure of a webpage.
+Some of the things you can do with the DOM include:
 
 - Selecting elements: You need to know how to select elements using CSS selectors, such as getElementById, querySelector, and others.
 
