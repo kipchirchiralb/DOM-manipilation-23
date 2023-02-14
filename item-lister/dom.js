@@ -61,3 +61,50 @@ var items=document.getElementsByClassName('item-group');
 for(var i=0;i<items.length;i++){
     items[i].style.backgroundColor='red';
 }
+// QUERYSELECTOR
+// USED TO GRAB ONE ITEM THE FIRST ONE BUT IF WANT TO GRAB ALL  USE QUERYSELECTORALL
+// i.e if its an id use #
+//i.e for a class use  .
+// i.e for tag use tagname
+var header=document.querySelector('#header-title');
+console.log(header);
+//output <h1 id="header-title">Item Lister<span style="display:none">123</span></h1>
+// style an Element
+// header.style.borderBottom='4px solid red'
+
+var input=document.querySelector('.control');
+input.value="add item";
+
+var submit=document.querySelector('.submit');
+submit.value='SEND'
+
+//MANIPULATE LIST ITEM
+var lastItem=document.querySelector('.item-group:last-child');
+lastItem.style.color='blue';
+
+//change second item using pseudo selectors
+var SeconItem=document.querySelector('.item-group:nth-child(2)');
+SeconItem.style.color='#fff';
+
+
+
+//QUERYSELECTORALL
+var title=document.querySelectorAll('.title')
+console.log(title);
+/* output: [h2.title, h2.title]
+0
+: 
+h2.title
+1
+: 
+h2.title
+length
+: 
+2 */
+
+
+//change odd values in list
+var odd=document.querySelectorAll('.item-group:nth-child(odd)');
+for(let j=0;j<odd.length;j++){
+    odd[j].style.backgroundColor='yellow'
+}
