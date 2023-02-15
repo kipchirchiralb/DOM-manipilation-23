@@ -4,6 +4,7 @@ let paragraphs = document.getElementsByClassName("paragraph"); //html collection
 // console.log(paragraphs);
 
 let note = document.getElementById("note"); //element
+
 // console.log(note);
 
 // diff btw a nodeList and a htmlCollection ********************
